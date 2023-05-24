@@ -1,0 +1,158 @@
+.of_acad h2{
+    font-size: calc(20px + 2vw);
+    font-weight: 300;
+    color: rgb(4, 146, 23);
+
+}
+
+.of_acad img {
+    height: 25px;
+    padding: 8px 0 30px;
+
+}
+
+.of_acad {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#inst_1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 50vh;
+        background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)), url(./img/edu.png);
+        background-size: cover;
+        background-position: center center;
+}
+
+#inst_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), url(./img/bio.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#inst_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), url(./img/salud.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+#inst_4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    background-image: linear-gradient(0deg,
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)), url(./img/tec.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.carreras h3 {
+    color: white;
+    font-size: calc(50px + 2vw);
+    font-weight: 100;
+}
+
+.press p {
+    font-size: 20px;
+    padding: 40px 20px;
+
+}
+
+span {
+    color: rgb(4, 146, 23);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(100px, auto);
+    gap: .5em;
+    padding-bottom: 50px;
+  }
+  
+.grid div {
+    background-color: #ecf0f1;
+    padding: 1em;
+    height: auto;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+ }
+  
+  
+.grid h4 {
+    font-size: 1.2em;
+  }
+  
+.grid p {
+    font-size: 2vh;
+    padding-top: 20px;
+}
+
+.grid img {
+    height: 40px;
+}
+
+.grid a {
+    text-decoration: none;
+}
+
+#educación a {
+    color: rgb(206, 77, 77);
+}
+
+#biotecnologia a {
+    color: rgb(32, 137, 202);
+}
+
+#salud a {
+    color: rgb(4, 167, 113);
+
+}
+
+#ingenieria a {
+    color: rgb(206, 177, 13);
+}
+
+.container h2{
+    font-size: calc(30px + 2vw);
+    font-weight: 300;
+    padding: 30px;
+    text-align: center;
+}
+
+.container {
+    padding: 30px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+}
